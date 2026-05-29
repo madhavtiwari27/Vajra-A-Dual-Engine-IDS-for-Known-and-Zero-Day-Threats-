@@ -59,7 +59,15 @@ The models have been thoroughly evaluated against combinations of standard netwo
 ### Prerequisites
 
 - Python 3.10 or higher.
-- TShark (Required by Pyshark). Install via your system package manager:
-  - Ubuntu/Debian: sudo apt install tshark.
-  - Windows: Download the Wireshark installer and ensure TShark is added to your system PATH.
+- **TShark** (Required by Pyshark). Install via your system package manager:
+  - **Ubuntu/Debian:** _sudo apt install tshark_.
+  - **Windows:** Download the Wireshark installer and ensure TShark is added to your system PATH.
   
+### Installation
+
+1. CLone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/Vajra-Hybrid-IDS.git
+   cd Vajra-Hybrid-IDS
+   ```
