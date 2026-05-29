@@ -52,3 +52,14 @@ The models have been thoroughly evaluated against combinations of standard netwo
 ├── packet.py               # Live network packet parsing (pyshark layer bindings)
 └── res/                    # Directory containing model evaluation telemetry and logs
 ```
+
+
+## 💻 Installation & Setup
+
+### Prerequisites
+
+- Python 3.10 or higher.
+- TShark (Required by Pyshark). Install via your system package manager:
+      - Ubuntu/Debian: sudo apt install tshark
+      - Windows: Download the Wireshark installer and ensure TShark is added to your system PATH.
+  
