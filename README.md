@@ -43,3 +43,12 @@ The models have been thoroughly evaluated against combinations of standard netwo
 
 ## 🛠️ Repository Structure
 
+```
+├── ABNIDS.py               # Main application entry point & PyQt5 Dashboard GUI
+├── Signature-train-test.py # Standalone evaluation script for the S-IDS Decision Tree
+├── classifier.py           # Core machine learning wrappers for prediction & state logging
+├── tree.py                 # Genetic Algorithm implementation for optimized feature selection
+├── Preprocess.py           # Dataset refinement and continuous scaling pipeline
+├── packet.py               # Live network packet parsing (pyshark layer bindings)
+└── res/                    # Directory containing model evaluation telemetry and logs
+```
