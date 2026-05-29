@@ -67,7 +67,7 @@ The models have been thoroughly evaluated against combinations of standard netwo
 
 1. CLone the repository:
 
-   ```bash
+   ``` bash
    git clone https://github.com/yourusername/Vajra-Hybrid-IDS.git
    cd Vajra-Hybrid-IDS
    ```
