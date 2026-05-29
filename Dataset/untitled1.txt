@@ -1,0 +1,4 @@
+Total = 395
+Normal = 1
+DoS = 390
+Prob = 4

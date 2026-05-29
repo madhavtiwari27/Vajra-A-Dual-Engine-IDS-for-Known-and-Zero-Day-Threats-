@@ -1,0 +1,4 @@
+Total = 377
+Normal = 0
+DoS = 370
+Prob = 7
