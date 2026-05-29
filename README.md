@@ -6,3 +6,5 @@ The system features an interactive, real-time monitoring dashboard built with Py
 
 
 ## 🚀 Key Architectural Features
+
+1. Dual-Engine Hybrid Detection Pipeline
