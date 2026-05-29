@@ -71,3 +71,11 @@ The models have been thoroughly evaluated against combinations of standard netwo
    git clone https://github.com/yourusername/Vajra-Hybrid-IDS.git
    cd Vajra-Hybrid-IDS
    ```
+
+2. Install dependencies:
+
+   ``` bash
+   pip install -r requirements.txt
+   ```
+
+   _(Ensure dependencies include: **PyQt5, pyshark, xgboost, scikit-learn, pandas, numpy, matplotlib, seaborn**)_
