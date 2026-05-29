@@ -79,3 +79,27 @@ The models have been thoroughly evaluated against combinations of standard netwo
    ```
 
    _(Ensure dependencies include: **PyQt5, pyshark, xgboost, scikit-learn, pandas, numpy, matplotlib, seaborn**)_
+
+
+## 🖥️ Usage
+
+### Running the Live Dashboard
+
+Execute the primary script to launch the PyQt5 GUI:
+
+``` bash
+python main.py
+```
+
+1. Click **Train Model** to load your processed data partitions and configure the Genetic Algorithm optimization layer.
+2. Select **Real Time Testing** to spin up the background packet collection thread and monitor live traffic logs.
+3. Click **Plot Graph** to view runtime traffic class distributions and system diagnostic summaries.
+
+### Running Standalone Signature Training
+
+To check metric generation, plot learning curves, and display confusion matrices for the standalone pruned Decision Tree engine:
+
+``` bash
+python S-IDS.py
+```
+
